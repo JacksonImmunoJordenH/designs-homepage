@@ -1,0 +1,64 @@
+.jir-table h2 {
+    font-size: 1.5rem;
+    padding: 15px 14px;
+    margin: 0;
+}
+
+.jir-table p {
+    font-size: .9rem;
+}
+
+.jir-table {
+    margin-bottom: 4rem;
+}
+
+.jir-table table {
+    color: #fff;
+}
+
+.jir-table th {
+    padding: 10px 14px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.jir-table td,
+.jir-table caption {
+    padding: 7px 14px;
+}
+
+.jir-table tr:nth-of-type(2n+2) td:nth-of-type(2n + 2) {
+    background: $lightBlue;
+}
+
+.jir-table tr:nth-of-type(2n+1) td:nth-of-type(2n + 2) {
+    background: darken($lightBlue, 5%);
+}
+
+.jir-table td:nth-of-type(2n + 2) {
+    color: lighten(#000, 35%);
+}
+
+.anti-alpaca-table tr:nth-of-type(2n + 2) {
+    background: lighten($green, 12%);
+}
+
+.anti-alpaca-table tr:nth-of-type(2n + 1) {
+    background: lighten($green, 7%);
+}
+
+.anti-alpaca-table tr:first-of-type {
+    background: $green;
+}
+
+.blue tr:nth-of-type(2n + 2) {
+    background: lighten($blue, 12%);
+}
+
+.blue tr:nth-of-type(2n + 1) {
+    background: lighten($blue, 4%);
+}
+
+.blue tr:first-of-type {
+    background: $blue;
+}

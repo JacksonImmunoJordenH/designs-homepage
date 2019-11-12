@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slideshow Designs</title>
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/f8fa80ab4c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <a href="../index.html"><input class="btn-home" type="button" value="Go Home"></a>
+
+        <h2 class="slideshow-header">FabuLight™ Example Protocol - Fab Labeling Primary Antibodies </h2>
+        <div class="key-container"><img class="slide-key" src="../img/fabulight-key.png" alt=""></div>
+        <div class="slideshow">
+            <div class="slide-container">
+                <div class="slide-img-container"><img src="../img/fabulight-1.png" alt="">
+                </div>
+                <p>1. <i>Include a blocking step if the tissue displays immunoglobulins that could be recognized by the FabuLight, for instance mouse tissue that is to be labeled with a mouse specific FabuLight. Otherwise start with step 2.</i><br><br>
+                Incubate with unconjugated Fab anti-Fc antibody, in this example Fab Goat Anti-Mouse IgG1, Fcγ fragment specific. Fab Goat Anti-Mouse IgG (H+L) could also be used for this step. Wash.</p>
+            </div>
+            <div class="slide-container">
+                <div class="slide-img-container"><img src="../img/fabulight-2.png" alt="">
+                </div>
+                <p>2. Create Fab-primary antibody complexes. In this example Mouse Anti-Antigen X is complexed with Alexa Fluor® 488-conjugated Fab Goat Anti-Mouse IgG1, Fcγ fragment specific (Creating <strong>Alexa Fluor® 488-labeled Anti-X Complex</strong>); and Mouse Anti-Antigen Y is complexed with Rhodamine Red-X-conjugated Fab Goat Anti-Mouse IgG1, Fcγ fragment specific (Creating <strong>Rhodamine Red-X-labeled Anti-Y Complex</strong>). </p>
+            </div>
+            <div class="slide-container">
+                <div class="slide-img-container"><img src="../img/fabulight-3.png" alt="">
+                </div>
+                <p>3. Incubate the sample with <strong>Alexa Fluor® 488-labeled Anti-X Complex</strong>. (X being the less abundant target) Wash. </p>
+            </div>
+            <div class="slide-container">
+                <div class="slide-img-container"><img src="../img/fabulight-4.png" alt="">
+                </div>
+                <p>4. Incubate the sample with <strong>Rhodamine Red-X-labeled Anti-Y Complex</strong>. (Y being the more abundant target) Wash. </p>
+            </div>
+        </div>
+
+    </div>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slideshow').slick({
+                dots: true,
+                arrows: false,
+                infinite: true,
+                slidesToShow: 1
+            });
+        });
+    </script>
+    
+</body>
+</html>

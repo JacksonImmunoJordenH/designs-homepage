@@ -1,0 +1,26 @@
+.btn-green {
+    background: $green;
+}
+
+.btn-green:hover {
+    background: darken($green, 3%);
+}
+
+.btn-blue {
+    background: $blue;
+}
+
+.btn-blue:hover {
+    background: darken($blue, 3%);
+}
+
+.btn-home {
+    background: $orange;
+    position: fixed;
+    right: 15px;
+    top: 0px;
+}
+
+.btn-home:hover {
+    background: lighten($orange, 5%);
+}

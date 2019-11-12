@@ -1,0 +1,76 @@
+.slideshow {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.slideshow-header {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.slide-container {
+    width: 400px;
+    font-size: .8rem;
+}
+
+.slide-container img {
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: auto;
+    height: 300px;
+}
+
+.slide-img-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid $lightBlue;
+}
+
+.slide-key {
+    height: 150px !important;
+}
+
+.key-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.slide-container p {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.slick-dots {
+    width: 194px;
+    margin: 0 auto;
+}
+
+.slick-dots li {
+    display: inline-block;
+    font-size: .6rem;
+}
+
+.slick-dots button {
+    padding: 0;
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-top: 20px;
+    background: darken($lightBlue, 5%);
+    color: lighten(#000, 30%);
+}
+
+.slick-dots li.slick-active button {
+    width: 20px;
+    height: 20px;
+    background: darken($lightBlue, 14%);
+    font-size: .8rem;
+}
